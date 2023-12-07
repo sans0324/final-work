@@ -15,7 +15,9 @@ int main() {
 	scanf("%c %c",&ch1, &ch2);
 
 	for (i = 0; i < strlen(str); i++) {
-
+		if (str[i] == ch1) {
+			str[i] = ch2;
+		}
 	}
 }
 
