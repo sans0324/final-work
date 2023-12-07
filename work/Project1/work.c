@@ -16,6 +16,9 @@ int main() {
 		return 1;
 	}
 
+	str[strcspn(str, "\n")] = '\0';
+
+
 	printf("Enter existing and new characters : ");
 	scanf("%c %c",&ch1, &ch2);
 
