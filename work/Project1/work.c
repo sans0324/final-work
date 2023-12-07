@@ -5,5 +5,6 @@
 
 int main() {
 	char str[100];
+	char ch1, ch2;
 }
 
