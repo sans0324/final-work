@@ -10,5 +10,7 @@ int main() {
 
 	printf("여러 글자를 입력 :");
 	gets(str);
+
+	printf("기존 문자와 새로운 문자를 입력 : ");
 }
 
