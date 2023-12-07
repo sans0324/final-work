@@ -11,6 +11,11 @@ int main() {
 	printf("Enter multiple characters :");
 	gets(str);
 
+	if (fgets(str, sizeof(str), stdin) == NULL) {
+		printf("Error reading input.\n");
+		return 1;
+	}
+
 	printf("Enter existing and new characters : ");
 	scanf("%c %c",&ch1, &ch2);
 
