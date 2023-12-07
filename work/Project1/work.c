@@ -9,5 +9,6 @@ int main() {
 	int i;
 
 	printf("여러 글자를 입력 :");
+	gets(str);
 }
 
