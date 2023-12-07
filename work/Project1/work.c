@@ -19,7 +19,7 @@ int main() {
 			str[i] = ch2;
 		}
 	}
-	printf("변화된 결과 ==> %s\n",str);
+	printf("a changed result ==> %s\n",str);
 
 	return 0;
 }
