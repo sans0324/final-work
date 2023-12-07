@@ -13,5 +13,9 @@ int main() {
 
 	printf("기존 문자와 새로운 문자를 입력 : ");
 	scanf("%c %c",&ch1, &ch2);
+
+	for (i = 0; i < strlen(str); i++) {
+
+	}
 }
 
