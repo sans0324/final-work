@@ -4,7 +4,7 @@
 
 
 int main() {
-	char str[100];
+	char str[MAX_LENGTH];
 	char ch1, ch2;
 	int i;
 
