@@ -11,7 +11,7 @@ int main() {
 	printf("Enter multiple characters :");
 	gets(str);
 
-	printf("기존 문자와 새로운 문자를 입력 : ");
+	printf("Enter existing and new characters : ");
 	scanf("%c %c",&ch1, &ch2);
 
 	for (i = 0; i < strlen(str); i++) {
