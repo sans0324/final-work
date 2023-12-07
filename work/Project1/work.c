@@ -18,6 +18,10 @@ int main() {
 
 	str[strcspn(str, "\n")] = '\0';
 
+	if (strlen(str) == MAX_LENGTH - 1 && str[MAX_LENGTH - 2] != '\n') {
+		printf("Input is too long.\n");
+		return 1;
+	}
 
 	printf("Enter existing and new characters : ");
 	scanf("%c %c",&ch1, &ch2);
