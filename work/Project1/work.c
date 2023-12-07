@@ -19,5 +19,8 @@ int main() {
 			str[i] = ch2;
 		}
 	}
+	printf("변화된 결과 ==> %s\n",str);
+
+	return 0;
 }
 
